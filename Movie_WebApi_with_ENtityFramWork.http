@@ -1,0 +1,36 @@
+@Movie_WebApi_with_ENtityFramWork_HostAddress = https://localhost:7168
+
+GET {{Movie_WebApi_with_ENtityFramWork_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{Movie_WebApi_with_ENtityFramWork_HostAddress}}/api/movies
+Content-Type: application/json
+
+{
+  //Movie
+}
+
+###
+
+GET {{Movie_WebApi_with_ENtityFramWork_HostAddress}}/api/movies/0
+
+###
+
+DELETE {{Movie_WebApi_with_ENtityFramWork_HostAddress}}/api/movies/0
+
+###
+
+PUT {{Movie_WebApi_with_ENtityFramWork_HostAddress}}/api/movies/0
+Content-Type: application/json
+
+{
+  //Movie
+}
+
+###
+
+GET {{Movie_WebApi_with_ENtityFramWork_HostAddress}}/weatherforecast
+
+###
